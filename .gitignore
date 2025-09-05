@@ -1,37 +1,50 @@
-HELP.md
-.gradle
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+
+# Maven / Gradle directories
+target/
 build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### STS ###
-.apt_generated
+# Eclipse files
 .classpath
-.factorypath
 .project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+.settings/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# IDEA files
+.idea/
 *.iml
-*.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# OS generated files
+.DS_Store
+Thumbs.db
 
-### VS Code ###
-.vscode/
+# Environment files
+.env
+
+# Dependency caches
+.mvn/
+.gradle/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Test coverage reports
+coverage/
+jacoco.exec
